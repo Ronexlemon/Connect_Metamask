@@ -1,5 +1,8 @@
 .App {
-  text-align: center;
+  
+  width: 100%;
+  height: 100%;
+
 }
 
 .App-logo {
@@ -35,4 +38,28 @@
   to {
     transform: rotate(360deg);
   }
+}
+.nav{
+  top:0;
+ 
+  right:0;
+  margin: 4px;
+  position: absolute;
+}
+.main-header{
+  position: relative;
+ width: 100%;
+ text-align: start;
+  height:15%;
+  background-color: rgb(181, 221, 160);
+}
+#title{
+  top:0;
+ 
+  left:0;
+  position: relative;
+}
+.card{
+  width: 400;
+  background-color: "yellow";
 }
